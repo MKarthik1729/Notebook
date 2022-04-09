@@ -5,21 +5,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://github.com/MKarthik1729/Portfolio/blob/main/assets/port.js"></script>
-    <link href="https://github.com/MKarthik1729/Portfolio/blob/main/assets/port.css" rel="stylesheet">
+    <link src="https://github.com/MKarthik1729/Portfolio/blob/main/assets/port.js"></link>
+    <link href="https://github.com/MKarthik1729/Portfolio/blob/main/assets/port.css?raw=true" rel="stylesheet">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap" rel="stylesheet">
+<style>
+    img {
+        width: 100%;
+
+    }
+
+    /* *{
+align-items:center;
+} */
+
+    .img-circular {
+        length: 200px;
+        /* border-radius: 200px; */
+        overflow: hidden;
+    }
+
+    .Jumbotron {
+        background-color: #abcdac;
+        padding: 20px;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        color: #2802f9;
+    }
+
+    .mar {
+        padding: 30px 10%;
+        /* background-color: #e4d90d; */
+          background-image: linear-gradient(to right,rgb(255 255 182), rgb(203 223 27),rgb(255 255 182));
+    }
+
+
+    .Jumbo {
+        background-color: white;
+        
+        border: 1px solid white;
+        border-radius: 10px;
+        align-items: center;
+        text-align: center;
+        /* margin-bottom: 10px; */
+        margin: 0 0 30px 50px;
+        /* width: 100%; */
+ margin-inline: auto;
+    }
+
+    ul li,
+    .Jumbo h2 {
+        list-style-type: none;
+        transition: transform .2s;
+        transform: scale(1.2);
+        padding: 6px;
+        font-family: 'Amiri',
+            serif;
+        font-weight: 100;
+    }
+
+    .zoom-box {
+        background-color: #CF4B32;
+        width: 100px;
+        height: 100px;
+        margin: 32px auto;
+        transition: transform 1s;
+        /* Animation */
+    }
+
+    .zoom-box:hover {
+        transform: scale(1.5);
+    }
+
+    ul li:hover {
+        transform: scale(1.8);
+    }
+
+    .row {
+        align-items: center;
+    }
+
+    .dec {
+        /* width: 66%; */
+        /* align-self:auto; */
+        margin-inline: auto;
+        width: 60%;
+    }
+
+    .Jumbo h2 {
+        text-decoration: underline;
+        padding-bottom: 3px;
+        color: rgb(40, 63, 63);
+    }
+
+    .Jumbo:hover {
+        /* width: 250px; */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+    }
+
+.pad{
+    padding: 20px;
+}
+</style>
     </head>
 
 <body>
 <div class="mar" class="">
+
 <div class="Jumbotron row">
             <div class="img-circular col-md-4">
-                <img src="https://github.com/MKarthik1729/Portfolio/blob/main/assets/my photo.jpeg">
+         <img src="https://github.com/MKarthik1729/Portfolio/blob/main/assets/my%20photo.jpeg?raw=true" alt="no img">
             </div>
         <div class="col-md-8 " id="kk">
             <h2>M karthik</h2>
@@ -27,11 +129,8 @@
                 My fields of intrest include python development, Web development and Competative Programming.</p>
         </div>
         </div>
-<div class=" row">
-    <div class="dec">
-        
-    </div>
-    <div class="col-md-5 Jumbo dec">
+    <div class="row">
+    <div class="col-md-4 Jumbo pad">
                     <h2>Strengths</h2>
                     <ul>
                         <li>Self Motivated</li>
@@ -39,7 +138,7 @@
                         <li>Group projects</li>
                     </ul>
     </div>
-    <div class="col-md-5 Jumbo dec">
+    <div class="col-md-4 Jumbo">
         <h2>Areas Of Interest</h2>
         <ul>
             <li>Machine Learning and Deep Learning</li>
@@ -51,7 +150,7 @@
     </div>
 </div>
 <div class="dec">
-    <div class="Jumbo row">
+    <div class="Jumbo row pad">
         <h2>Skills</h2>
         <div class="col-md-6">
     
@@ -78,7 +177,7 @@
         </ul>
     </div>
 </div>
-<div class="dec">
+<div class="dec pad">
     <div class="Jumbo row">
         <h2>Education</h2>
         <ul>
